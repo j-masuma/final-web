@@ -1,0 +1,43 @@
+.hero-sec{
+    background-image: url("./assets/img/hero-bg.png");
+    color: white !important;
+}
+.header{
+    background-color: black;
+    color: white;
+}
+.nav-texts{
+    color: white;
+}
+.future{
+    background-image: url("./assets/img/future-bg.png");
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 90px;
+    
+}
+.button-styling{
+    display: inline-block;
+    
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #6F348E;
+    
+    color: white;
+    background-color: #6F348E;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .button-styling:hover{
+    background-color: #3b1d4b;
+    color: white;
+    border-color: #3b2249;
+  }
+
+  .footer{
+    background-image: url("./assets/img/footer-bg.png");
+  }
