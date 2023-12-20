@@ -26,9 +26,16 @@ const Footer = () => {
       </div>
       <div className="col col-lg-4 col-md-12 col-sm-12">
         <div className="d-flex justify-content-end align-items-end">
-          <img src={inst} alt="" />
-          <img src={tt} alt="" />
-          <img src={fb} alt="" />
+          <a href="/">
+            <img src={inst} alt="" />
+          </a>
+          <a href="/">
+            <img src={tt} alt="" />
+          </a>
+
+          <a href="/">
+            <img src={fb} alt="" />
+          </a>
         </div>
       </div>
     </div>

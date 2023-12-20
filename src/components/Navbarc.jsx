@@ -47,13 +47,13 @@ const Navbarc = () => {
   const navLinkStyle = { color: "white" };
   return (
     <div className=" header">
-      <Navbar expand="lg" className=" p-4  ">
+      <Navbar expand="lg" className=" p-5 ">
         <Navbar.Brand href="#home">
           <img width={120} height={60} src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
 
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="d-flex justify-content-end">
           <Nav className="me-auto text-white">
             <Nav.Link href="#action1" style={navLinkStyle}>
               Web3Makr
